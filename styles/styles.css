@@ -319,6 +319,9 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .c-plus {
   width: 70%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .ruby {
+  width: 75%;
+}
 
 .stat-title {
   text-transform: uppercase;

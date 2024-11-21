@@ -318,11 +318,40 @@ section{
                     .c-plus{
                         width: 70%;
                     }
+                    .ruby{
+                        width: 75%;
+                    }
                 }
             }
         }
     }
 }
+
+/* Portfolios */
+.portfolio-text{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.portfolios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    .portfolio-item{
+        position: relative;
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 15px;
+        }
+        .hover-items{
+            
+        }
+    }
+}
+
 
 .stat-title{
     text-transform: uppercase;
